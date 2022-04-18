@@ -8,8 +8,8 @@ const App = () => {
   const [gpaArr, setGpaArr] = useState([]);
 
   const handleAdd = () => {
-    if (!credit || !grade || credit == 0 || grade == 0) {
-      alert("Should not be null or 0");
+    if (!credit || !grade || credit <= 0 || grade <= 0) {
+      alert("Should not be null or 0 or any negetive value");
       return;
     }
     if (grade > 4) {
