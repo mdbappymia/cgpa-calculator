@@ -1,6 +1,5 @@
 /* eslint-disable eqeqeq */
 import { useState } from "react";
-import "./App.css";
 
 const App = () => {
   const [grade, setGrade] = useState(null);
