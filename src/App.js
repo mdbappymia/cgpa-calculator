@@ -36,7 +36,7 @@ const App = () => {
   };
   return (
     <div className="bg-black absolute w-full h-full flex justify-center items-center">
-      <div className="w-1/3 bg-white p-10">
+      <div className="lg:w-1/3 bg-white p-10 mx-1">
         <h1 className="text-center font-bold uppercase text-3xl my-10">
           CGPA CALCULATOR
         </h1>
